@@ -8,11 +8,12 @@
     name: "comment",
     mounted() {
       const commentConfig = {
-        clientID: "e621b27241a69a7f512b",
-        clientSecret: "434a88dbe2ba420fa3022a4287493227a2b31b0d",
-        repo: "https://github.com/Moking1997/Moking1997.github.io",
-        owner: "Moking1997",
-        admin: ["Moking1997"],
+        clientID: "c6bccd90d050b8194d55",
+        clientSecret: "e501eb9f9882bc8bdea03ae11a5c538464393665",
+        repo: "https://github.com/webylb/webylb.github.io",
+        owner: "webylb",
+        admin: ["webylb"],
+        id: location.pathname
       };
       const gitalk = new Gitalk(commentConfig);
       gitalk.render("gitalk-container");
