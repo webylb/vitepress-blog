@@ -4,7 +4,7 @@ const matter = require("gray-matter");
 
 function rTime(date) {
   const json_date = new Date(date).toJSON();
-  return json_date.split("T")[0];
+  return json_date ? json_date.split("T")[0] : '';
 }
 
 var compareDate = function (obj1, obj2) {

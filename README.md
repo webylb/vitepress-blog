@@ -1,8 +1,6 @@
-
 ## 基于「VitePress」搭建的极简博客
 
 ## 安装
-
 ```bash
 git clone https://github.com/webylb/vitepress-blog.git
 cd vitepress-blog
