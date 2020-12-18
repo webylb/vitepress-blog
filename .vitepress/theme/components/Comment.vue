@@ -10,7 +10,7 @@
       const commentConfig = {
         clientID: "c6bccd90d050b8194d55",
         clientSecret: "e501eb9f9882bc8bdea03ae11a5c538464393665",
-        repo: "https://github.com/webylb/webylb.github.io",
+        repo: "webylb.github.io",
         owner: "webylb",
         admin: ["webylb"],
         id: location.pathname
