@@ -62,6 +62,9 @@
     justify-content: space-between;
     align-items: center;
   }
+  .article:hover {
+    text-decoration: none;
+  }
   .title-o {
     display: inline-block;
     margin-right: 10px;
@@ -78,7 +81,7 @@
     color: #ccc;
     font-size: 1rem;
   }
-  
+
     @media screen and (max-width: 700px) {
     .header {
       font-size: 1.5rem;
